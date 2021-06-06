@@ -43,5 +43,9 @@ public class App {
                 System.out.println("It is legal for you to drive.");
             }
         }
+
+        if(!gender.equals("female") && !gender.equals("male")){
+            System.out.println("Please enter a valid gender.");
+        }
     }
 }
